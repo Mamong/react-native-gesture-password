@@ -24,7 +24,7 @@ const Circle = memo(({ color, normalColor, fill, x, y, r, inner, outer }) => {
     () => [
       !outer && styles.inner,
       { width: (2 * r) / 3, height: (2 * r) / 3, borderRadius: r / 3 },
-      fill && { backgroundColor: color },
+      { backgroundColor: fill ? color : 'transparent' },
     ],
     [r, outer, fill, color],
   );

@@ -26,7 +26,8 @@
     "url": "https://github.com/spikef/react-native-gesture-password/issues"
   },
   "peerDependencies": {
-    "react-native": ">=15.5"
+    "react": ">=15.5",
+    "react-native": ">=0.25"
   },
   "dependencies": {
     "prop-types": "^15.6.0"

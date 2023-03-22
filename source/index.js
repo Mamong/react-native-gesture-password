@@ -121,7 +121,7 @@ export default class GesturePassword extends Component {
   }
 
   resetActive() {
-    this.state.lines = [];
+    this.setState({lines:[]})
     for (let i = 0; i < 9; i++) {
       this.state.circles[i].isActive = false;
     }
